@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT Book';
+	src: url('../fonts/futura_pt_book.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/futura_pt_book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/futura_pt_book.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/futura_pt_book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/futura_pt_book.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/futura_pt_book.svg#futura_pt_book') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 900px;
+    background-color: #464f54;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    width: 875px;
+    height: 185px;
+    margin: 60px 120px 0 325px;
+    box-shadow: -3.5px -3.5px 59px 0 #00000028;
+    background-color: #181818;
+}
+
+.header-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 5px;
+    color: #fefefe;
+    border-bottom: 1px solid #ddaa1f;
+}
+
+.header-title {
+    font-family: ProximaNova, sans-serif;
+    font-size: 15px;
+    color: #767676;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.header-img {
+    width: 800px;
+    height: 70px;
+    margin-top: 47px;
+    margin-left: 75px;
+    background-color: #fbc02d;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+h1, h2, h3 {
+    padding: 0px 135px;
+}
+
+h2 {
+    margin-top: 200px;
+}
+
+.post {
+    position: absolute;
+    width: 1060px;
+    height: 755px;
+    background-color: #fefefe;
+    margin: 145px 70px 0px;
+    border-left: 1px solid #ddaa1f;
+	/* padding: 200px 130px 20px 55px; */
+}
+
+.post p {
+    text-align: justify;
+    padding: 0px 135px;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000000;
+}
+
+.post h1 {
+    font-family: Futura PT Book;
+    font-size: 78px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 4.13px;
+    text-align: left;
+    color: #2a2a2a;
+}
+
+.post h2 {
+    font-family: ProximaNova, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.38px;
+    text-align: left;
+    color: #b4b4b4;
+}
+
+.post h3 {
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.07;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #8f8f8f;
+}
+
+.post p:last-child {
+    padding-top: 25px;
+}
